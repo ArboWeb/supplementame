@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+
+<h1 class="text-6xl text-center mt-12 italic" style="font-family: dancing; font-size: 6rem;">
+    {{ page.title }}
+</h1>
+
+<div class="container article_container xl:min-h-screen shadow-2xl max-w-1/4 mx-auto my-24 p-6" style="max-width:100vh;">
+
+  <div class="xl:flex">
+
+    {% with images=page.image_gallery.all %}
+        {% if images %}
+        <div class="w-full" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 1vh">
+            {% for image in images %}
+                {% image image.image fill-340x340 %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    {% endwith %}
+    
+    <div class="px:3 xl:px-12 my-12 xl:my-48 text-2xl leading-loose">
+        {{ page.description|richtext }}
+        <br>
+        <p>Ajouté le {{ page.date }}</p>
+    </div>
+
+    
+  </div>
+
+</div>
+
+{% endblock content %}

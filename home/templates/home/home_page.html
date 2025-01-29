@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags %}
+
+{% block content %}
+<div class="text-center" style="height: 70vh; background-image: url({% static 'img/banner.JPG' %}); background-repeat: no-repeat; background-position: center; background-size: 100%;">
+    <h1 class="presentation_title">Supplément d'Âme</h1>
+    <p class="presentation_text">Décoration d’intérieur<br>Mobilier et objets de charme de seconde main </p>
+  </div>
+
+  <div class="w-4/5 xl:flex mx-auto my-12">
+  
+      <div class="w-full xl:hidden">
+          <h1 class="mb-12 text-4xl italic text-center leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">La boutique vous attend ...</h1>
+          <p class="mb-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe nihil quisquam placeat accusantium, inventore, beatae porro delectus praesentium facilis eveniet dolore deserunt alias doloremque quasi autem corrupti minima dolorum consectetur. Nobis saepe, voluptatibus itaque laudantium iste quaerat rem ut velit.</p>
+          <div class="card h-1/2 lg:card-side bg-base-100 shadow-xl">
+              <figure>
+                  <img src="src/img/exemple_artice4.jpg" alt="" />
+              </figure>
+              <div class="card-body">
+                  <h2 class="card-title">Article à la une !</h2>
+                  <p class="font-semibold mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, cum. Doloribus, consequatur.</p>
+                  <ul class=" list-disc">
+                      <li>Lorem ipsum dolor sit.</li>
+                      <li>Necessitatibus aspernatur earum temporibus!</li>
+                      <li>Dolor provident tempora voluptatum.</li>
+                      <li>Provident alias officiis illo.</li>
+                  </ul>
+                  <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>
+                  <div class="card-actions justify-end">
+                      <button class="btn"><a href="/article.html">Voir le produit</a></button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="mx-auto">
+          <div class="card mx-auto bg-base-100 w-80 h-96 my-12 shadow-xl">
+              <figure>
+                  <img src="src/img/article1.JPG" alt="" />
+              </figure>
+              <div class="card-body">
+                  <div class="card-actions justify-end">
+                      <button class="btn"><a href="/article.html">Voir le produit</a></button>
+                  </div>
+              </div>
+          </div>
+          <div class="card mx-auto bg-base-100 w-80 h-96 my-12 shadow-xl">
+              <figure>
+                  <img src="src/img/article2.JPG" alt="" />
+              </figure>
+              <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="card-actions justify-end">
+                      <button class="btn"><a href="/article.html">Voir le produit</a></button>
+                  </div>
+              </div>
+          </div>
+          <div class="card mx-auto bg-base-100 w-80 h-96 my-12 shadow-xl">
+              <figure>
+                  <img src="src/img/article3.JPG" alt="" />
+              </figure>
+              <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="card-actions justify-end">
+                      <button class="btn"><a href="/article.html">Voir le produit</a></button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="w-2/3 hidden xl:block">
+        <h1 class="mb-12 text-4xl italic text-center leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">La boutique vous attend ...</h1>
+          <p class="mb-12">{{ page.entete|richtext }}</p>
+          <div class="card h-1/2 lg:card-side bg-base-100 shadow-2xl">
+              <figure class="w-full">
+                  <img src="src/img/article4.JPG" alt="" />
+              </figure>
+              <div class="card-body">
+                  <h2 class="card-title">{{ page.alaune|richtext}}</h2>
+                  {% comment %} <p class="font-semibold mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, cum. Doloribus, consequatur.</p>
+                  <ul class=" list-disc">
+                      <li>Lorem ipsum dolor sit.</li>
+                      <li>Necessitatibus aspernatur earum temporibus!</li>
+                      <li>Dolor provident tempora voluptatum.</li>
+                      <li>Provident alias officiis illo.</li>
+                  </ul>
+                  <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>
+                  <div class="card-actions justify-end">
+                      <button class="btn"><a href="/article.html">Voir le produit</a></button>
+                  </div> {% endcomment %}
+                  <p>{{ page.actu|richtext }}</p>
+              </div>
+          </div>
+      </div>
+  
+  </div>
+{% endblock content %}
