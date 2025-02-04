@@ -1,0 +1,30 @@
+services:
+    mysql:
+        container_name: mysql_monprojet_container
+        image: mariadb:10.6
+        working_dir: /app
+        command: 
+            - '--character-set-server=utf8mb4'
+            - '--collation-server=utf8mb4_unicode_ci'
+        restart: always
+        ports:
+            - 58901:3306
+        environment:
+            - MYSQL_DATABASE=monprojet
+            - MYSQL_ROOT_PASSWORD=monprojet
+            - MYSQL_USER=monprojet
+            - MYSQL_PASSWORD=monprojet
+        volumes:
+            - mysql_monprojet_volume:/var/lib/mysql
+
+    redis:
+        image: docker.io/redis:7
+        container_name: redis_monprojet_container
+        ports:
+            - 55379:6379
+        volumes:
+            - redis_monprojet_volume:/data
+
+volumes:
+    mysql_monprojet_volume:
+    redis_monprojet_volume:
