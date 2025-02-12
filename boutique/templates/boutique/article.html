@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+
+<h1 class="text-center mt-12 italic text-6xl" style="font-family: dancing;">
+    {{ page.title }}
+</h1>
+
+<div class="container article_container xl:min-h-screen shadow-2xl max-w-1/4 mx-auto lg:my-24 p-6" style="max-width:100vh;">
+
+    <div class="xl:flex">
+        {% with page.main_image as main_image %}
+            {% if main_image %}
+                {% comment %} <div id="mainImage" class="w-full">{% image main_image fill-700x700 class="mx-auto" %}</div> {% endcomment %}
+                {% image main_image fill-700x700 id="mainImage" class="mx-auto" %}
+            {% endif %}
+        {% endwith %}
+        
+            <div class="px-3 leading-loose">
+                {{ page.description|richtext }}
+            </div>
+    </div>
+
+    <div class="flex gap-4 mt-12">
+        {% with images=page.image_gallery.all %}
+            {% if images %}
+                {% for image in images %}
+                    <div class="thumbnail w-1/5">
+                        {% image image.image fill-340x340 %}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+
+</div>
+
+{% endblock content %}
+
+<script>
+    // Récupération de l'image principale
+    const mainImage = document.getElementById("mainImage");
+
+    // Sélection de toutes les vignettes
+    const thumbnails = document.querySelectorAll(".thumbnail");
+
+    // Ajout de l'événement click à chaque vignette
+    thumbnails.forEach(thumbnail => {
+        thumbnail.addEventListener("click", function() {
+            mainImage.src = this.src; // Remplace l'image principale par celle de la vignette cliquée
+        });
+    });
+</script>

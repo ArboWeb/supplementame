@@ -1,0 +1,29 @@
+body, header, footer, .navbar {
+    background-color: #f2f2f2;
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(../font/DancingScript-Regular.ttf);
+}
+
+.logo {
+    max-width: 50%;
+    border-radius: 20vh;
+}
+
+.presentation_title {
+    font-family: dancing;
+    color: #f2f2f2;
+    font-size: 6rem;
+    padding-top: 20vh;;
+}
+
+.presentation_text {
+    color: #f2f2f2;
+    font-size: 1.5rem;
+}
+
+.article_container {
+    max-width: 50vh;
+}

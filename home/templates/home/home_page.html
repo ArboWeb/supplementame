@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+
+<div class="text-center" style="height: 70vh; background-image: url({% static 'img/banner.JPG' %}); background-repeat: no-repeat; background-position: center; background-size: 100%;">
+    <h1 class="presentation_title">Supplément d'Âme</h1>
+    <p class="presentation_text">Décoration d’intérieur<br>Mobilier et objets de charme de seconde main </p>
+</div>
+
+<div class="w-4/5 grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[30vh] mx-auto my-12 leading-8">
+
+    <div class="row-start-4 md:row-start-1 card md:card-side bg-base-100 shadow-2xl flex-col mt-[7rem] md:mt-3 my p-3 justify-end items-center" style="background-image: url({% static 'img/banner.JPG' %});">
+        <div class="card-actions">
+            <button class="btn text-xl">
+                <a href="{% slugurl "articles_vendus" %}">Voir les articles vendus</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="row-start-5 md:row-start-2 card md:card-side bg-base-100 shadow-2xl flex-col m-3 p-3 justify-end items-center" style="background-image: url({% static 'img/mirroir.JPG' %});">
+        <div class="card-actions">
+            <button class="btn text-xl">
+                <a href="{% slugurl "atelier" %}">Découvrez l'atelier</a>
+            </button>
+        </div>
+    </div>
+
+        {% with images=page.image_gallery.all %}
+            {% if images %}
+                {% for image in images %}
+                    <div class="row-start-3 md:col-start-2 md:row-span-2 m-auto">{% image image.image scale-100 %}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+    <div class="row-start-1 col-span-2 md:col-start-3 card md:card-side bg-base-100 shadow-2xl p-5 flex-col md:text-right justify-center">{{ page.alaune|richtext }}</div>
+    <div class="row-start-2 col-span-2  md:col-start-3 card md:card-side bg-base-100 shadow-2xl p-5 flex-col text-right md:text-left justify-center">{{ page.actu|richtext }}</div>
+</div>
+
+{% endblock content %}

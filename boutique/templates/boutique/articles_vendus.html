@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags wagtailimages_tags categorie_tags %}
+
+{% block content %}
+
+{% if articles_vendus %}
+
+    {% for article in articles_vendus %}
+        <div class="xl:grid grid-cols-3">
+            <div class="card mx-auto bg-base-100 w-80 h-96 my-12 shadow-xl">
+                <figure>
+                    {% with thumbnail_image=article.specific.main_image %}
+                        {% if thumbnail_image %}
+                            {% image thumbnail_image fill-300x200 %}
+                        {% endif %}
+                    {% endwith %}
+                </figure>
+                <div class="card-body">
+                    <p>{{ article.title }}</p>
+                    <div class="card-actions justify-end">
+                    <button class="btn"><a href="{{ article.url }}">Voir le produit</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+{% endif %}
+
+
+{% endblock content %}

@@ -1,0 +1,4 @@
+Django>=5.1,<5.2
+wagtail>=6.3,<6.4
+pymysql==1.1.1
+django-environ==0.11.2
