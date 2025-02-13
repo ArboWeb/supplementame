@@ -17,6 +17,9 @@ from pathlib import Path
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)
 
+print(f"PROJECT_DIR: {PROJECT_DIR}")
+print(f"BASE_DIR: {BASE_DIR}")
+
 env = environ.Env()
 # env.read_env(BASE_DIR / ".env")
 env.read_env(os.path.join(BASE_DIR, ".env"))
