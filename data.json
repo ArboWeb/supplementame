@@ -1,0 +1,6203 @@
+[
+{
+  "model": "contact.formfield",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "clean_name": "votre_nom",
+    "label": "Votre nom :",
+    "field_type": "singleline",
+    "required": true,
+    "choices": "",
+    "default_value": "",
+    "help_text": "",
+    "page": 6
+  }
+},
+{
+  "model": "contact.formfield",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "clean_name": "votre_email",
+    "label": "Votre email :",
+    "field_type": "email",
+    "required": true,
+    "choices": "",
+    "default_value": "",
+    "help_text": "",
+    "page": 6
+  }
+},
+{
+  "model": "contact.formfield",
+  "pk": 3,
+  "fields": {
+    "sort_order": 2,
+    "clean_name": "votre_message",
+    "label": "Votre message :",
+    "field_type": "multiline",
+    "required": true,
+    "choices": "",
+    "default_value": "",
+    "help_text": "",
+    "page": 6
+  }
+},
+{
+  "model": "boutique.categorie",
+  "pk": 1,
+  "fields": {
+    "nom": "Mobilier"
+  }
+},
+{
+  "model": "boutique.categorie",
+  "pk": 2,
+  "fields": {
+    "nom": "Décoration"
+  }
+},
+{
+  "model": "boutique.categorie",
+  "pk": 3,
+  "fields": {
+    "nom": "Objets de charme"
+  }
+},
+{
+  "model": "boutique.articleimagegallery",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 5,
+    "image": 1,
+    "caption": ""
+  }
+},
+{
+  "model": "boutique.articleimagegallery",
+  "pk": 4,
+  "fields": {
+    "sort_order": 1,
+    "page": 5,
+    "image": 1,
+    "caption": ""
+  }
+},
+{
+  "model": "boutique.articleimagegallery",
+  "pk": 6,
+  "fields": {
+    "sort_order": 2,
+    "page": 5,
+    "image": 4,
+    "caption": ""
+  }
+},
+{
+  "model": "boutique.articleimagegallery",
+  "pk": 7,
+  "fields": {
+    "sort_order": 0,
+    "page": 9,
+    "image": 5,
+    "caption": ""
+  }
+},
+{
+  "model": "boutique.articleimagegallery",
+  "pk": 8,
+  "fields": {
+    "sort_order": 1,
+    "page": 9,
+    "image": 6,
+    "caption": ""
+  }
+},
+{
+  "model": "boutique.articleimagegallery",
+  "pk": 9,
+  "fields": {
+    "sort_order": 2,
+    "page": 9,
+    "image": 7,
+    "caption": ""
+  }
+},
+{
+  "model": "boutique.articleimagegallery",
+  "pk": 10,
+  "fields": {
+    "sort_order": 3,
+    "page": 9,
+    "image": 4,
+    "caption": ""
+  }
+},
+{
+  "model": "atelier.atelierimagegallery",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 7,
+    "image": 1,
+    "caption": ""
+  }
+},
+{
+  "model": "atelier.atelierimagegallery",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "page": 7,
+    "image": 1,
+    "caption": ""
+  }
+},
+{
+  "model": "atelier.atelierimagegallery",
+  "pk": 3,
+  "fields": {
+    "sort_order": 2,
+    "page": 7,
+    "image": 1,
+    "caption": ""
+  }
+},
+{
+  "model": "home.homeimagegallery",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "page": 3,
+    "image": 1,
+    "caption": ""
+  }
+},
+{
+  "model": "wagtailforms.formsubmission",
+  "pk": 1,
+  "fields": {
+    "form_data": {
+      "votre_nom": "sld,jvknfb",
+      "votre_email": "fkgdfkbfdbgf@domaine.fr",
+      "votre_message": "df,bpdf,;bpdf"
+    },
+    "page": 6,
+    "submit_time": "2025-02-08T15:35:46.826Z"
+  }
+},
+{
+  "model": "wagtailcore.locale",
+  "pk": 1,
+  "fields": {
+    "language_code": "en"
+  }
+},
+{
+  "model": "wagtailcore.site",
+  "pk": 2,
+  "fields": {
+    "hostname": "localhost",
+    "port": 80,
+    "site_name": "",
+    "root_page": 3,
+    "is_default_site": true
+  }
+},
+{
+  "model": "wagtailcore.collection",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 0,
+    "name": "Root"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.1.image",
+    "content_path_hash": "e286e136-db6e-593b-8fcf-0b6a2787ba1e"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.4.image",
+    "content_path_hash": "6a7a281b-306c-574d-bd9b-bf621faa6298"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.1.image",
+    "content_path_hash": "e286e136-db6e-593b-8fcf-0b6a2787ba1e"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.1.image",
+    "content_path_hash": "e286e136-db6e-593b-8fcf-0b6a2787ba1e"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.2.image",
+    "content_path_hash": "8f5c1c4d-249d-587a-8244-27f0ad8e4d88"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "1",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.3.image",
+    "content_path_hash": "5ab5242a-a0a9-52d3-a85c-d1146efed908"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "4",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.6.image",
+    "content_path_hash": "e1155ba7-bc67-51a7-9e39-8b70d303fba9"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "9",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "5",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.7.image",
+    "content_path_hash": "2628b98d-1140-5264-828b-b8f8466e16a5"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 29,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "9",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "6",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.8.image",
+    "content_path_hash": "f9e18893-3fa9-5bea-b45e-f7fef27c60ae"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "9",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "7",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.9.image",
+    "content_path_hash": "75bf4992-7e72-5cd7-9170-1adbdbdc7cf8"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "9",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "4",
+    "model_path": "image_gallery.item.image",
+    "content_path": "image_gallery.10.image",
+    "content_path_hash": "451b8f22-7830-5e38-bd48-3f60c5f95515"
+  }
+},
+{
+  "model": "wagtailcore.workflowpage",
+  "pk": 1,
+  "fields": {
+    "workflow": 1
+  }
+},
+{
+  "model": "wagtailcore.workflowtask",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "workflow": 1,
+    "task": 1
+  }
+},
+{
+  "model": "wagtailcore.task",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators approval",
+    "content_type": [
+      "wagtailcore",
+      "groupapprovaltask"
+    ],
+    "active": true
+  }
+},
+{
+  "model": "wagtailcore.workflow",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators approval",
+    "active": true
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators",
+    "permissions": [
+      [
+        "access_admin",
+        "wagtailadmin",
+        "admin"
+      ],
+      [
+        "add_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "change_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "choose_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "delete_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "add_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "change_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "choose_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "delete_image",
+        "wagtailimages",
+        "image"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Editors",
+    "permissions": [
+      [
+        "access_admin",
+        "wagtailadmin",
+        "admin"
+      ],
+      [
+        "add_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "change_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "choose_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "delete_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "add_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "change_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "choose_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "delete_image",
+        "wagtailimages",
+        "image"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$SInk1C5e5qJy0w2lDjAUjJ$bJDi2COmi04SXHS14er2l2j3kBzgztzk149JolDRBFI=",
+    "last_login": "2025-02-09T09:30:30.553Z",
+    "is_superuser": true,
+    "username": "Sophie",
+    "first_name": "Sophie",
+    "last_name": "Bergez",
+    "email": "contact@supplementame.eu",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-01-28T10:19:58.643Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "Sophie"
+    ],
+    "page": 3,
+    "comment_notifications": false
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "Sophie"
+    ],
+    "page": 4,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "Sophie"
+    ],
+    "page": 5,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "Sophie"
+    ],
+    "page": 6,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "Sophie"
+    ],
+    "page": 7,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "Sophie"
+    ],
+    "page": 8,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "Sophie"
+    ],
+    "page": 9,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T15:24:23.854Z",
+    "uuid": "d083ae50-d5a0-4992-a471-bd2a5e9758d9",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 1,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T15:24:24.256Z",
+    "uuid": "d083ae50-d5a0-4992-a471-bd2a5e9758d9",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 1,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T15:27:07.198Z",
+    "uuid": "9ee064ab-d0d1-4704-a513-5eddca9b7562",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 2,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T15:27:07.612Z",
+    "uuid": "9ee064ab-d0d1-4704-a513-5eddca9b7562",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 2,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T15:33:20.420Z",
+    "uuid": "7c3a9fa5-2fbf-4af1-ac52-b2ab073a035f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 3,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T15:33:20.783Z",
+    "uuid": "7c3a9fa5-2fbf-4af1-ac52-b2ab073a035f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 3,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T15:50:05.608Z",
+    "uuid": "d7935316-7fee-4a83-b0b7-042687b22e5f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 4,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T15:50:06.194Z",
+    "uuid": "d7935316-7fee-4a83-b0b7-042687b22e5f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 4,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T15:51:49.160Z",
+    "uuid": "a874c065-12d0-4f4d-9ba4-e9acdbf3f87b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 5,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T15:51:49.548Z",
+    "uuid": "a874c065-12d0-4f4d-9ba4-e9acdbf3f87b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 5,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "label": "Découvrez notre boutique",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-01-28T16:41:35.879Z",
+    "uuid": "1c1bcb36-c308-4a4c-a563-f0e1f4cea14b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "label": "Découvrez notre boutique",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T16:41:36.233Z",
+    "uuid": "1c1bcb36-c308-4a4c-a563-f0e1f4cea14b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 6,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "label": "Découvrez notre boutique",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T16:41:36.710Z",
+    "uuid": "1c1bcb36-c308-4a4c-a563-f0e1f4cea14b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 6,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-01-28T16:45:49.807Z",
+    "uuid": "f45bc771-1da4-402e-8d22-cd493b551c1f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T16:45:50.208Z",
+    "uuid": "f45bc771-1da4-402e-8d22-cd493b551c1f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 7,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T16:45:50.788Z",
+    "uuid": "f45bc771-1da4-402e-8d22-cd493b551c1f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 7,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T16:52:33.396Z",
+    "uuid": "8c8da197-43cd-4c7b-82b8-f92be13a865d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 8,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T16:52:33.775Z",
+    "uuid": "8c8da197-43cd-4c7b-82b8-f92be13a865d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 8,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "label": "Découvrez notre boutique",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T16:58:52.735Z",
+    "uuid": "7d6dabf0-4666-4f13-b21a-8783f350075e",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "label": "Découvrez notre boutique",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T16:58:53.286Z",
+    "uuid": "7d6dabf0-4666-4f13-b21a-8783f350075e",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "label": "Découvrez notre boutique",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T16:59:39.558Z",
+    "uuid": "9a294722-3b13-43e2-92fb-90c0a7bfea15",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 10,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "label": "Découvrez notre boutique",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T16:59:40.071Z",
+    "uuid": "9a294722-3b13-43e2-92fb-90c0a7bfea15",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 10,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T17:20:32.718Z",
+    "uuid": "cd295c4d-1ae5-42ac-8478-1f53fbf2f75c",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 11,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T17:20:33.132Z",
+    "uuid": "cd295c4d-1ae5-42ac-8478-1f53fbf2f75c",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 11,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 25,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T17:51:57.825Z",
+    "uuid": "8a9f4c23-0b89-40e2-a47e-093b0ec24ad5",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 12,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-28T17:51:58.263Z",
+    "uuid": "8a9f4c23-0b89-40e2-a47e-093b0ec24ad5",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 12,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-01-29T08:04:00.662Z",
+    "uuid": "b9e630ab-b3aa-46c1-9b56-bba75257b9ab",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-29T08:04:01.190Z",
+    "uuid": "b9e630ab-b3aa-46c1-9b56-bba75257b9ab",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 13,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 29,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-29T08:04:01.729Z",
+    "uuid": "b9e630ab-b3aa-46c1-9b56-bba75257b9ab",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 13,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-29T08:04:17.296Z",
+    "uuid": "9a750dad-0465-49fd-be46-d8d36a33e28b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 14,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-29T08:08:20.665Z",
+    "uuid": "d6bc1fe3-fab5-47d8-8faa-95dcf928c373",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 15,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 32,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-29T08:08:21.040Z",
+    "uuid": "d6bc1fe3-fab5-47d8-8faa-95dcf928c373",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 15,
+    "content_changed": false,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 33,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-29T08:18:05.282Z",
+    "uuid": "bb422ae2-5dbd-4468-bf9f-a0795c068b1d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 16,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-01-29T08:18:05.753Z",
+    "uuid": "bb422ae2-5dbd-4468-bf9f-a0795c068b1d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 16,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 35,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Home",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-07T04:06:51.884Z",
+    "uuid": "9f7f9038-dc47-4291-8ee1-5a23fc0a713b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 17,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 36,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Accueil",
+    "action": "wagtail.rename",
+    "data": {
+      "title": {
+        "old": "Home",
+        "new": "Accueil"
+      }
+    },
+    "timestamp": "2025-02-07T04:06:52.121Z",
+    "uuid": "9f7f9038-dc47-4291-8ee1-5a23fc0a713b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 17,
+    "content_changed": false,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 37,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Accueil",
+    "action": "wagtail.publish",
+    "data": {
+      "title": {
+        "old": "Home",
+        "new": "Accueil"
+      }
+    },
+    "timestamp": "2025-02-07T04:06:52.231Z",
+    "uuid": "9f7f9038-dc47-4291-8ee1-5a23fc0a713b",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 17,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 38,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-07T05:13:16.484Z",
+    "uuid": "95d992b6-db7d-4c09-916b-484bc608af70",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 18,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 39,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-07T05:13:16.905Z",
+    "uuid": "95d992b6-db7d-4c09-916b-484bc608af70",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 18,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 40,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Accueil",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-07T13:34:34.712Z",
+    "uuid": "5935630e-f7a4-481b-8ff5-a3519977b1c0",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 19,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 41,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Accueil",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-07T13:34:34.980Z",
+    "uuid": "5935630e-f7a4-481b-8ff5-a3519977b1c0",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 19,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 42,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Accueil",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-07T13:45:54.672Z",
+    "uuid": "bf61b14c-7e23-456e-a8d4-a95e59a99b3d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 20,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 43,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "Accueil",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-07T13:45:54.984Z",
+    "uuid": "bf61b14c-7e23-456e-a8d4-a95e59a99b3d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 20,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 44,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "label": "Atelier",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-02-07T16:31:32.365Z",
+    "uuid": "89628a7a-d5b9-4ee6-9169-9bdf148cb2a6",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 45,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "label": "Atelier",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-07T16:31:32.706Z",
+    "uuid": "89628a7a-d5b9-4ee6-9169-9bdf148cb2a6",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 21,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 46,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "label": "Atelier",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-07T16:31:33.155Z",
+    "uuid": "89628a7a-d5b9-4ee6-9169-9bdf148cb2a6",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 21,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 47,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "label": "Atelier",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-07T17:05:26.214Z",
+    "uuid": "74f4d38c-677b-44e2-b481-98ccd14b858e",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 22,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 48,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "label": "Découvrez la vie de l'atelier",
+    "action": "wagtail.rename",
+    "data": {
+      "title": {
+        "old": "Atelier",
+        "new": "Découvrez la vie de l'atelier"
+      }
+    },
+    "timestamp": "2025-02-07T17:05:26.616Z",
+    "uuid": "74f4d38c-677b-44e2-b481-98ccd14b858e",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 22,
+    "content_changed": false,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 49,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "label": "Découvrez la vie de l'atelier",
+    "action": "wagtail.publish",
+    "data": {
+      "title": {
+        "old": "Atelier",
+        "new": "Découvrez la vie de l'atelier"
+      }
+    },
+    "timestamp": "2025-02-07T17:05:26.717Z",
+    "uuid": "74f4d38c-677b-44e2-b481-98ccd14b858e",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 22,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 50,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "label": "Découvrez la vie de l'atelier",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-07T17:07:49.665Z",
+    "uuid": "2ee6c7f3-531b-4cf7-99ad-b1925a66ad80",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 23,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 51,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "label": "Découvrez la vie de l'atelier",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-07T17:07:49.952Z",
+    "uuid": "2ee6c7f3-531b-4cf7-99ad-b1925a66ad80",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 23,
+    "content_changed": true,
+    "deleted": false,
+    "page": 7
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 52,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-02-08T06:57:10.128Z",
+    "uuid": "ee6f2c6a-7fc9-45a4-bd50-f8b820703238",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 53,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T06:57:10.429Z",
+    "uuid": "ee6f2c6a-7fc9-45a4-bd50-f8b820703238",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 24,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 54,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T06:57:11.079Z",
+    "uuid": "ee6f2c6a-7fc9-45a4-bd50-f8b820703238",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 24,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 55,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T07:10:12.534Z",
+    "uuid": "7a6c60f1-4153-46a1-939e-8886a40f2dfb",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 25,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 56,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T07:10:12.921Z",
+    "uuid": "7a6c60f1-4153-46a1-939e-8886a40f2dfb",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 25,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 57,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T07:17:39.658Z",
+    "uuid": "afa35dd1-f4e6-45d1-8769-eca76381a0fc",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 26,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 58,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T07:17:40.093Z",
+    "uuid": "afa35dd1-f4e6-45d1-8769-eca76381a0fc",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 26,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 59,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T07:22:13.472Z",
+    "uuid": "bac7a458-0866-4d13-b854-21c4d206f21d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 27,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 60,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T07:22:13.817Z",
+    "uuid": "bac7a458-0866-4d13-b854-21c4d206f21d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 27,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 61,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T07:44:31.034Z",
+    "uuid": "daa542af-0ac3-4047-83de-7919e5915a3f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 28,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 62,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T07:44:31.363Z",
+    "uuid": "daa542af-0ac3-4047-83de-7919e5915a3f",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 28,
+    "content_changed": false,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 63,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T07:48:37.043Z",
+    "uuid": "ddabb32e-50ab-4e18-83a0-25bd5e4a6efe",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 29,
+    "content_changed": true,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 64,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "label": "Ils ont déjà été adoptés",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T07:48:37.354Z",
+    "uuid": "ddabb32e-50ab-4e18-83a0-25bd5e4a6efe",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 29,
+    "content_changed": false,
+    "deleted": false,
+    "page": 8
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 65,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T15:33:04.711Z",
+    "uuid": "20805bd6-a639-450b-8a5c-acb1d8fcf4fb",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 30,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 66,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T15:33:05.051Z",
+    "uuid": "20805bd6-a639-450b-8a5c-acb1d8fcf4fb",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 30,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 67,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T15:33:21.593Z",
+    "uuid": "57c2f884-96fe-4804-a5b4-ff7e0fe540c1",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 31,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 68,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T15:33:21.872Z",
+    "uuid": "57c2f884-96fe-4804-a5b4-ff7e0fe540c1",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 31,
+    "content_changed": false,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 69,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T15:33:59.678Z",
+    "uuid": "203dd305-b4f7-4e30-95c3-ad17971e25eb",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 32,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 70,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T15:34:00.009Z",
+    "uuid": "203dd305-b4f7-4e30-95c3-ad17971e25eb",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 32,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 71,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T15:34:17.466Z",
+    "uuid": "b4c9262e-ba05-4716-b7ef-e6e7497fdb7e",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 33,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 72,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T15:34:17.714Z",
+    "uuid": "b4c9262e-ba05-4716-b7ef-e6e7497fdb7e",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 33,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 73,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T15:35:23.193Z",
+    "uuid": "4e39ea69-4abc-4004-a2c5-f7716077ed58",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 34,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 74,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "label": "Contact",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T15:35:23.528Z",
+    "uuid": "4e39ea69-4abc-4004-a2c5-f7716077ed58",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 34,
+    "content_changed": true,
+    "deleted": false,
+    "page": 6
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 75,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T16:11:31.888Z",
+    "uuid": "dc2090d8-59c6-475b-b2cb-eeb819b98f08",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 35,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 76,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Buffet vaisselier en bois massif",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T16:11:32.230Z",
+    "uuid": "dc2090d8-59c6-475b-b2cb-eeb819b98f08",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 35,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 77,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Chaise 1900 en teck",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-02-08T16:17:28.727Z",
+    "uuid": "e11899c5-f918-49ca-a84e-f8e7e794a766",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 9
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 78,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Chaise 1900 en teck",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T16:17:29.039Z",
+    "uuid": "e11899c5-f918-49ca-a84e-f8e7e794a766",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 36,
+    "content_changed": true,
+    "deleted": false,
+    "page": 9
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 79,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Chaise 1900 en teck",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T16:17:29.371Z",
+    "uuid": "e11899c5-f918-49ca-a84e-f8e7e794a766",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 36,
+    "content_changed": true,
+    "deleted": false,
+    "page": 9
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 80,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Chaise 1900 en teck",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T16:18:25.630Z",
+    "uuid": "b235d7dd-ec28-43f3-822b-1b07f92c5396",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 37,
+    "content_changed": true,
+    "deleted": false,
+    "page": 9
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 81,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Chaise 1900 en teck",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T16:18:26.002Z",
+    "uuid": "b235d7dd-ec28-43f3-822b-1b07f92c5396",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 37,
+    "content_changed": true,
+    "deleted": false,
+    "page": 9
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 82,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Chaise 1900 en teck",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-02-08T16:22:34.778Z",
+    "uuid": "e0cc4831-b012-48d6-aba8-a1e2b032b406",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 38,
+    "content_changed": true,
+    "deleted": false,
+    "page": 9
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 83,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "label": "Chaise 1900 en teck",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2025-02-08T16:22:35.050Z",
+    "uuid": "e0cc4831-b012-48d6-aba8-a1e2b032b406",
+    "user": [
+      "Sophie"
+    ],
+    "revision": 38,
+    "content_changed": true,
+    "deleted": false,
+    "page": 9
+  }
+},
+{
+  "model": "wagtailcore.groupapprovaltask",
+  "pk": 1,
+  "fields": {
+    "groups": [
+      [
+        "Moderators"
+      ]
+    ]
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-01-28T15:24:23.441Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Home",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 0,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Home",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "entete": "<h2 data-block-key=\"vofjq\">La boutique vous attend ...</h2><p data-block-key=\"3iakd\"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe  nihil quisquam placeat accusantium, inventore, beatae porro delectus  praesentium facilis eveniet dolore deserunt alias doloremque quasi autem  corrupti minima dolorum consectetur. Nobis saepe, voluptatibus itaque  laudantium iste quaerat rem ut velit. </p>",
+      "alaune": "<p data-block-key=\"fmcmf\">Article à la une !</p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\"> Necessitatibus aspernatur earum temporibus!</li><li data-block-key=\"asvin\">Dolor provident tempora voluptatum.</li><li data-block-key=\"d4jcc\">Provident alias officiis illo.</li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias.  Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-01-28T15:27:06.985Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Home",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 0,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": 1,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T15:24:24.062Z",
+      "last_published_at": "2025-01-28T15:24:24.062Z",
+      "live_revision": 1,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Home",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T15:24:23.441Z",
+      "alias_of": null,
+      "entete": "<h2 data-block-key=\"vofjq\">La boutique vous attend ...</h2><p data-block-key=\"b32ae\"><b><i>blabla</i></b></p><p data-block-key=\"3iakd\">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe nihil quisquam placeat accusantium, inventore, beatae porro delectus praesentium facilis eveniet dolore deserunt alias doloremque quasi autem corrupti minima dolorum consectetur. Nobis saepe, voluptatibus itaque laudantium iste quaerat rem ut velit.</p>",
+      "alaune": "<p data-block-key=\"fmcmf\">Article à la une !</p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\">Necessitatibus aspernatur earum temporibus!</li><li data-block-key=\"asvin\">Dolor provident tempora voluptatum.</li><li data-block-key=\"d4jcc\">Provident alias officiis illo.</li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-01-28T15:33:20.175Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Home",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 0,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": 2,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T15:24:24.062Z",
+      "last_published_at": "2025-01-28T15:27:07.440Z",
+      "live_revision": 2,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Home",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T15:27:06.985Z",
+      "alias_of": null,
+      "entete": "<h2 data-block-key=\"vofjq\">La boutique vous attend ...</h2><p data-block-key=\"3iakd\"><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe nihil quisquam placeat accusantium, inventore, beatae porro delectus praesentium facilis eveniet dolore deserunt alias doloremque quasi autem corrupti minima dolorum consectetur. Nobis saepe, voluptatibus itaque laudantium iste quaerat rem ut velit.</i></p>",
+      "alaune": "<p data-block-key=\"fmcmf\">Article à la une !</p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\">Necessitatibus aspernatur earum temporibus!</li><li data-block-key=\"asvin\">Dolor provident tempora voluptatum.</li><li data-block-key=\"d4jcc\">Provident alias officiis illo.</li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-01-28T15:50:05.234Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Home",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 0,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": 3,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T15:24:24.062Z",
+      "last_published_at": "2025-01-28T15:33:20.612Z",
+      "live_revision": 3,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Home",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T15:33:20.175Z",
+      "alias_of": null,
+      "entete": "<p data-block-key=\"vofjq\">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe nihil quisquam placeat accusantium, inventore, beatae porro delectus praesentium facilis eveniet dolore deserunt alias doloremque quasi autem corrupti minima dolorum consectetur. Nobis saepe, voluptatibus itaque laudantium iste quaerat rem ut velit.</p>",
+      "alaune": "<p data-block-key=\"fmcmf\">Article à la une !</p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\">Necessitatibus aspernatur earum temporibus!</li><li data-block-key=\"asvin\">Dolor provident tempora voluptatum.</li><li data-block-key=\"d4jcc\">Provident alias officiis illo.</li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-01-28T15:51:48.922Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Home",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 0,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": 4,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T15:24:24.062Z",
+      "last_published_at": "2025-01-28T15:50:06.028Z",
+      "live_revision": 4,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Home",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T15:50:05.234Z",
+      "alias_of": null,
+      "entete": "<p data-block-key=\"vofjq\">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe nihil quisquam placeat accusantium, inventore, beatae porro delectus praesentium facilis eveniet dolore deserunt alias doloremque quasi autem corrupti minima dolorum consectetur. Nobis saepe, voluptatibus itaque laudantium iste quaerat rem ut velit.</p>",
+      "alaune": "<p data-block-key=\"fmcmf\">Article à la une !</p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\"><b><i>Necessitatibus aspernatur earum temporibus!</i></b></li><li data-block-key=\"asvin\"><b><i>Dolor provident tempora voluptatum.</i></b></li><li data-block-key=\"d4jcc\"><b><i>Provident alias officiis illo.</i></b></li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "created_at": "2025-01-28T16:41:36.033Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Découvrez notre boutique",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "609d8615-7349-4587-8f96-134538e7717b",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Découvrez notre boutique",
+      "draft_title": "Découvrez notre boutique",
+      "slug": "découvrez-notre-boutique",
+      "content_type": 47,
+      "url_path": "/home/découvrez-notre-boutique/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "description": "<p data-block-key=\"s7qa8\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit           iste distinctio placeat sit pariatur. Voluptas, qui! Fugiat voluptatibus magni laboriosam corporis, ratione ex quod.</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "created_at": "2025-01-28T16:45:49.976Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Buffet vaisselier en bois massif",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "20e07769-5d12-4986-9eaf-e67d90a3bd5e",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Buffet vaisselier en bois massif",
+      "draft_title": "Buffet vaisselier en bois massif",
+      "slug": "buffet-vaisselier-en-bois-massif",
+      "content_type": 48,
+      "url_path": "/home/découvrez-notre-boutique/buffet-vaisselier-en-bois-massif/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "description": "<p data-block-key=\"hj1v7\"> Ce vert de gris, ce plateau vernis doré et ces jolis boutons « marguerite » en verre @boutons_mandarine, quel chic ! 😎       Très grande capacité de rangement :         </p><ul><li data-block-key=\"d8jj5\">3 grands tiroirs</li><li data-block-key=\"8dip8\">3 portes avec serrure</li><li data-block-key=\"cfe2i\">1 grande étagère</li></ul><p data-block-key=\"7g9ll\">Dimensions L 200 cm x H130 cm x P 50 cm</p><p data-block-key=\"alhv1\">Retrait à l’atelier ou livraison dans toute la France par transporteur sur devis.      </p>",
+      "date": "2025-01-28",
+      "wagtail_admin_comments": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categorie": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-01-28T16:52:33.143Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Home",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 1,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": 5,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T15:24:24.062Z",
+      "last_published_at": "2025-01-28T15:51:49.394Z",
+      "live_revision": 5,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Home",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T15:51:48.922Z",
+      "alias_of": null,
+      "entete": "<p data-block-key=\"vofjq\">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe nihil quisquam placeat accusantium, inventore, beatae porro delectus praesentium facilis eveniet dolore deserunt alias doloremque quasi autem corrupti minima dolorum consectetur. Nobis saepe, voluptatibus itaque laudantium iste quaerat rem ut velit.</p>",
+      "alaune": "<p data-block-key=\"fmcmf\"><a linktype=\"page\" id=\"4\">Article à la une !</a></p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\"><b><i>Necessitatibus aspernatur earum temporibus!</i></b></li><li data-block-key=\"asvin\"><b><i>Dolor provident tempora voluptatum.</i></b></li><li data-block-key=\"d4jcc\"><b><i>Provident alias officiis illo.</i></b></li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "created_at": "2025-01-28T16:58:52.474Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Découvrez notre boutique",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 1,
+      "translation_key": "609d8615-7349-4587-8f96-134538e7717b",
+      "locale": 1,
+      "latest_revision": 6,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T16:41:36.541Z",
+      "last_published_at": "2025-01-28T16:41:36.541Z",
+      "live_revision": 6,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Découvrez notre boutique",
+      "draft_title": "Découvrez notre boutique",
+      "slug": "boutique",
+      "content_type": 47,
+      "url_path": "/home/découvrez-notre-boutique/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T16:41:36.033Z",
+      "alias_of": null,
+      "description": "<p data-block-key=\"s7qa8\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste distinctio placeat sit pariatur. Voluptas, qui! Fugiat voluptatibus magni laboriosam corporis, ratione ex quod.</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "created_at": "2025-01-28T16:59:39.313Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Découvrez notre boutique",
+    "content": {
+      "pk": 4,
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 1,
+      "translation_key": "609d8615-7349-4587-8f96-134538e7717b",
+      "locale": 1,
+      "latest_revision": 9,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T16:41:36.541Z",
+      "last_published_at": "2025-01-28T16:58:53.007Z",
+      "live_revision": 9,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Découvrez notre boutique",
+      "draft_title": "Découvrez notre boutique",
+      "slug": "index_boutique",
+      "content_type": 47,
+      "url_path": "/home/boutique/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T16:58:52.474Z",
+      "alias_of": null,
+      "description": "<p data-block-key=\"s7qa8\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste distinctio placeat sit pariatur. Voluptas, qui! Fugiat voluptatibus magni laboriosam corporis, ratione ex quod.</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "created_at": "2025-01-28T17:20:32.474Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Buffet vaisselier en bois massif",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "20e07769-5d12-4986-9eaf-e67d90a3bd5e",
+      "locale": 1,
+      "latest_revision": 7,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T16:45:50.557Z",
+      "last_published_at": "2025-01-28T16:45:50.557Z",
+      "live_revision": 7,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Buffet vaisselier en bois massif",
+      "draft_title": "Buffet vaisselier en bois massif",
+      "slug": "buffet-vaisselier-en-bois-massif",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/buffet-vaisselier-en-bois-massif/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T16:45:49.976Z",
+      "alias_of": null,
+      "titre": "",
+      "description": "<p data-block-key=\"hj1v7\">Ce vert de gris, ce plateau vernis doré et ces jolis boutons « marguerite » en verre @boutons_mandarine, quel chic ! 😎 Très grande capacité de rangement :</p><ul><li data-block-key=\"d8jj5\">3 grands tiroirs</li><li data-block-key=\"8dip8\">3 portes avec serrure</li><li data-block-key=\"cfe2i\">1 grande étagère</li></ul><p data-block-key=\"7g9ll\">Dimensions L 200 cm x H130 cm x P 50 cm</p><p data-block-key=\"alhv1\">Retrait à l’atelier ou livraison dans toute la France par transporteur sur devis.</p>",
+      "date": "2025-01-28",
+      "wagtail_admin_comments": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categorie": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "created_at": "2025-01-28T17:51:57.565Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Buffet vaisselier en bois massif",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "20e07769-5d12-4986-9eaf-e67d90a3bd5e",
+      "locale": 1,
+      "latest_revision": 11,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T16:45:50.557Z",
+      "last_published_at": "2025-01-28T17:20:32.968Z",
+      "live_revision": 11,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Buffet vaisselier en bois massif",
+      "draft_title": "Buffet vaisselier en bois massif",
+      "slug": "buffet-vaisselier-en-bois-massif",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/buffet-vaisselier-en-bois-massif/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T17:20:32.474Z",
+      "alias_of": null,
+      "description": "<p data-block-key=\"hj1v7\">Ce vert de gris, ce plateau vernis doré et ces jolis boutons « marguerite » en verre @boutons_mandarine, quel chic ! 😎 Très grande capacité de rangement :</p><ul><li data-block-key=\"d8jj5\">3 grands tiroirs</li><li data-block-key=\"8dip8\">3 portes avec serrure</li><li data-block-key=\"cfe2i\">1 grande étagère</li></ul><p data-block-key=\"7g9ll\">Dimensions L 200 cm x H130 cm x P 50 cm</p><p data-block-key=\"alhv1\">Retrait à l’atelier ou livraison dans toute la France par transporteur sur devis.</p>",
+      "date": "2025-01-28",
+      "wagtail_admin_comments": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categorie": [
+        1
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-01-29T08:04:00.923Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-01-29T08:04:17.020Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": 13,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-29T08:04:01.540Z",
+      "last_published_at": "2025-01-29T08:04:01.540Z",
+      "live_revision": 13,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": true,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-29T08:04:00.923Z",
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-01-29T08:08:20.406Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": 14,
+      "live": true,
+      "has_unpublished_changes": true,
+      "first_published_at": "2025-01-29T08:04:01.540Z",
+      "last_published_at": "2025-01-29T08:04:01.540Z",
+      "live_revision": 13,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": true,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-29T08:04:17.020Z",
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-01-29T08:18:04.993Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": 15,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-29T08:04:01.540Z",
+      "last_published_at": "2025-01-29T08:08:20.865Z",
+      "live_revision": 15,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": true,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-29T08:08:20.406Z",
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        },
+        {
+          "pk": null,
+          "sort_order": 2,
+          "clean_name": "",
+          "label": "Votre message :",
+          "field_type": "multiline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-02-07T04:06:51.623Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Accueil",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 2,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": 8,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T15:24:24.062Z",
+      "last_published_at": "2025-01-28T16:52:33.620Z",
+      "live_revision": 8,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Accueil",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T16:52:33.143Z",
+      "alias_of": null,
+      "alaune": "<p data-block-key=\"fmcmf\"><a linktype=\"page\" id=\"4\">Article à la une !</a></p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\"><b><i>Necessitatibus aspernatur earum temporibus!</i></b></li><li data-block-key=\"asvin\"><b><i>Dolor provident tempora voluptatum.</i></b></li><li data-block-key=\"d4jcc\"><b><i>Provident alias officiis illo.</i></b></li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "created_at": "2025-02-07T05:13:16.222Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Buffet vaisselier en bois massif",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "20e07769-5d12-4986-9eaf-e67d90a3bd5e",
+      "locale": 1,
+      "latest_revision": 12,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T16:45:50.557Z",
+      "last_published_at": "2025-01-28T17:51:58.057Z",
+      "live_revision": 12,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Buffet vaisselier en bois massif",
+      "draft_title": "Buffet vaisselier en bois massif",
+      "slug": "buffet-vaisselier-en-bois-massif",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/buffet-vaisselier-en-bois-massif/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-28T17:51:57.565Z",
+      "alias_of": null,
+      "description": "<p data-block-key=\"hj1v7\">Ce vert de gris, ce plateau vernis doré et ces jolis boutons « marguerite » en verre @boutons_mandarine, quel chic ! 😎 Très grande capacité de rangement :</p><ul><li data-block-key=\"d8jj5\">3 grands tiroirs</li><li data-block-key=\"8dip8\">3 portes avec serrure</li><li data-block-key=\"cfe2i\">1 grande étagère</li></ul><p data-block-key=\"7g9ll\">Dimensions L 200 cm x H130 cm x P 50 cm</p><p data-block-key=\"alhv1\">Retrait à l’atelier ou livraison dans toute la France par transporteur sur devis.</p>",
+      "date": "2025-01-28",
+      "wagtail_admin_comments": [],
+      "categories": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": null,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": null,
+          "sort_order": 2,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categorie": [
+        1
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-02-07T13:34:34.420Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Accueil",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 2,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": 17,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T15:24:24.062Z",
+      "last_published_at": "2025-02-07T04:06:52.023Z",
+      "live_revision": 17,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Accueil",
+      "draft_title": "Accueil",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-07T04:06:51.623Z",
+      "alias_of": null,
+      "alaune": "<p data-block-key=\"fmcmf\"><a linktype=\"page\" id=\"4\">Article à la une !</a></p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\"><b><i>Necessitatibus aspernatur earum temporibus!</i></b></li><li data-block-key=\"asvin\"><b><i>Dolor provident tempora voluptatum.</i></b></li><li data-block-key=\"d4jcc\"><b><i>Provident alias officiis illo.</i></b></li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": [],
+      "image_gallery": [
+        {
+          "pk": null,
+          "sort_order": 0,
+          "page": 3,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2025-02-07T13:45:54.457Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Accueil",
+    "content": {
+      "pk": 3,
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 2,
+      "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+      "locale": 1,
+      "latest_revision": 19,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T15:24:24.062Z",
+      "last_published_at": "2025-02-07T13:34:34.867Z",
+      "live_revision": 19,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Accueil",
+      "draft_title": "Accueil",
+      "slug": "home",
+      "content_type": 2,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-07T13:34:34.420Z",
+      "alias_of": null,
+      "alaune": "<p data-block-key=\"fmcmf\">Nos dernières nouvelles :</p><ul><li data-block-key=\"18hmv\"><b><i>Necessitatibus aspernatur earum temporibus!</i></b></li><li data-block-key=\"2kg0c\"><b><i>Dolor provident tempora voluptatum.</i></b></li><li data-block-key=\"15cv8\"><b><i>Provident alias officiis illo.</i></b></li></ul><p data-block-key=\"5fjde\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\"><b><i>Necessitatibus aspernatur earum temporibus!</i></b></li><li data-block-key=\"asvin\"><b><i>Dolor provident tempora voluptatum.</i></b></li><li data-block-key=\"d4jcc\"><b><i>Provident alias officiis illo.</i></b></li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+      "wagtail_admin_comments": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 3,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "created_at": "2025-02-07T16:31:32.526Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Atelier",
+    "content": {
+      "pk": 7,
+      "path": "000100010003",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "cd302678-94c0-4668-9587-5262a44766dd",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Atelier",
+      "draft_title": "Atelier",
+      "slug": "atelier",
+      "content_type": 53,
+      "url_path": "/home/atelier/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "presentation": "<p data-block-key=\"lpecz\">Découvrez la vie de l'atelier ...</p>",
+      "wagtail_admin_comments": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "created_at": "2025-02-07T17:05:25.976Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Découvrez la vie de l'atelier",
+    "content": {
+      "pk": 7,
+      "path": "000100010003",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "cd302678-94c0-4668-9587-5262a44766dd",
+      "locale": 1,
+      "latest_revision": 21,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-02-07T16:31:32.990Z",
+      "last_published_at": "2025-02-07T16:31:32.990Z",
+      "live_revision": 21,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Découvrez la vie de l'atelier",
+      "draft_title": "Atelier",
+      "slug": "atelier",
+      "content_type": 53,
+      "url_path": "/home/atelier/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-07T16:31:32.526Z",
+      "alias_of": null,
+      "presentation": "<p data-block-key=\"lpecz\">Découvrez la vie de l'atelier ...</p>",
+      "wagtail_admin_comments": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "7",
+    "created_at": "2025-02-07T17:07:49.484Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Découvrez la vie de l'atelier",
+    "content": {
+      "pk": 7,
+      "path": "000100010003",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "cd302678-94c0-4668-9587-5262a44766dd",
+      "locale": 1,
+      "latest_revision": 22,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-02-07T16:31:32.990Z",
+      "last_published_at": "2025-02-07T17:05:26.436Z",
+      "live_revision": 22,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Découvrez la vie de l'atelier",
+      "draft_title": "Découvrez la vie de l'atelier",
+      "slug": "atelier",
+      "content_type": 53,
+      "url_path": "/home/atelier/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-07T17:05:25.976Z",
+      "alias_of": null,
+      "presentation": "<p data-block-key=\"lpecz\"> Candy toffee soufflé cake  liquorice sweet roll. Jelly-o halvah soufflé sugar plum halvah  cheesecake cake sweet roll. Apple pie cheesecake chocolate bar tiramisu  sugar plum gummi bears sweet donut marzipan.</p><ul><li data-block-key=\"4v094\">Muffin  toffee liquorice chocolate jelly beans soufflé. </li><li data-block-key=\"egaap\">Marzipan liquorice  wafer cookie brownie gingerbread. </li></ul><p data-block-key=\"jaj5\">Chupa chups tootsie roll cupcake  chocolate chocolate bar cotton candy. Chocolate bar ice cream pie  jelly-o sesame snaps apple pie pudding danish candy canes.</p>",
+      "wagtail_admin_comments": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "page": 7,
+          "image": 1,
+          "caption": ""
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "created_at": "2025-02-08T06:57:10.244Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Ils ont déjà été adoptés",
+    "content": {
+      "pk": 8,
+      "path": "000100010004",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "c2c314b9-311e-48b1-937a-b1fccf249817",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Ils ont déjà été adoptés",
+      "draft_title": "Ils ont déjà été adoptés",
+      "slug": "ils-ont-déjà-été-adoptés",
+      "content_type": 55,
+      "url_path": "/home/ils-ont-déjà-été-adoptés/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 25,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "created_at": "2025-02-08T07:10:12.295Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Ils ont déjà été adoptés",
+    "content": {
+      "pk": 8,
+      "path": "000100010004",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "c2c314b9-311e-48b1-937a-b1fccf249817",
+      "locale": 1,
+      "latest_revision": 24,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-02-08T06:57:10.768Z",
+      "last_published_at": "2025-02-08T06:57:10.768Z",
+      "live_revision": 24,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Ils ont déjà été adoptés",
+      "draft_title": "Ils ont déjà été adoptés",
+      "slug": "articles-vendus",
+      "content_type": 55,
+      "url_path": "/home/ils-ont-déjà-été-adoptés/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T06:57:10.244Z",
+      "alias_of": null,
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "created_at": "2025-02-08T07:17:39.468Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Ils ont déjà été adoptés",
+    "content": {
+      "pk": 8,
+      "path": "000100010004",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "c2c314b9-311e-48b1-937a-b1fccf249817",
+      "locale": 1,
+      "latest_revision": 25,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-02-08T06:57:10.768Z",
+      "last_published_at": "2025-02-08T07:10:12.682Z",
+      "live_revision": 25,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Ils ont déjà été adoptés",
+      "draft_title": "Ils ont déjà été adoptés",
+      "slug": "articles_vendus",
+      "content_type": 55,
+      "url_path": "/home/articles-vendus/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T07:10:12.295Z",
+      "alias_of": null,
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "created_at": "2025-02-08T07:22:13.295Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Buffet vaisselier en bois massif",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "20e07769-5d12-4986-9eaf-e67d90a3bd5e",
+      "locale": 1,
+      "latest_revision": 18,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T16:45:50.557Z",
+      "last_published_at": "2025-02-07T05:13:16.725Z",
+      "live_revision": 18,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Buffet vaisselier en bois massif",
+      "draft_title": "Buffet vaisselier en bois massif",
+      "slug": "buffet-vaisselier-en-bois-massif",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/buffet-vaisselier-en-bois-massif/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-07T05:13:16.222Z",
+      "alias_of": null,
+      "description": "<p data-block-key=\"hj1v7\">Ce vert de gris, ce plateau vernis doré et ces jolis boutons « marguerite » en verre @boutons_mandarine, quel chic ! 😎 Très grande capacité de rangement :</p><ul><li data-block-key=\"d8jj5\">3 grands tiroirs</li><li data-block-key=\"8dip8\">3 portes avec serrure</li><li data-block-key=\"cfe2i\">1 grande étagère</li></ul><p data-block-key=\"7g9ll\">Dimensions L 200 cm x H130 cm x P 50 cm</p><p data-block-key=\"alhv1\">Retrait à l’atelier ou livraison dans toute la France par transporteur sur devis.</p>",
+      "date": "2025-01-28",
+      "vendu": true,
+      "wagtail_admin_comments": [],
+      "categories": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 4,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 5,
+          "sort_order": 2,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categorie": [
+        1
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "created_at": "2025-02-08T07:44:30.834Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Buffet vaisselier en bois massif",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "20e07769-5d12-4986-9eaf-e67d90a3bd5e",
+      "locale": 1,
+      "latest_revision": 27,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T16:45:50.557Z",
+      "last_published_at": "2025-02-08T07:22:13.684Z",
+      "live_revision": 27,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Buffet vaisselier en bois massif",
+      "draft_title": "Buffet vaisselier en bois massif",
+      "slug": "buffet-vaisselier-en-bois-massif",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/buffet-vaisselier-en-bois-massif/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T07:22:13.295Z",
+      "alias_of": null,
+      "description": "<p data-block-key=\"hj1v7\">Ce vert de gris, ce plateau vernis doré et ces jolis boutons « marguerite » en verre @boutons_mandarine, quel chic ! 😎 Très grande capacité de rangement :</p><ul><li data-block-key=\"d8jj5\">3 grands tiroirs</li><li data-block-key=\"8dip8\">3 portes avec serrure</li><li data-block-key=\"cfe2i\">1 grande étagère</li></ul><p data-block-key=\"7g9ll\">Dimensions L 200 cm x H130 cm x P 50 cm</p><p data-block-key=\"alhv1\">Retrait à l’atelier ou livraison dans toute la France par transporteur sur devis.</p>",
+      "date": "2025-01-28",
+      "vendu": true,
+      "wagtail_admin_comments": [],
+      "categories": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 4,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 5,
+          "sort_order": 2,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        }
+      ],
+      "categorie": [
+        1
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 29,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "8",
+    "created_at": "2025-02-08T07:48:36.829Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Ils ont déjà été adoptés",
+    "content": {
+      "pk": 8,
+      "path": "000100010004",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "c2c314b9-311e-48b1-937a-b1fccf249817",
+      "locale": 1,
+      "latest_revision": 26,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-02-08T06:57:10.768Z",
+      "last_published_at": "2025-02-08T07:17:39.892Z",
+      "live_revision": 26,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Ils ont déjà été adoptés",
+      "draft_title": "Ils ont déjà été adoptés",
+      "slug": "articles_vendus",
+      "content_type": 55,
+      "url_path": "/home/articles_vendus/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T07:17:39.468Z",
+      "alias_of": null,
+      "wagtail_admin_comments": []
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-02-08T15:33:04.328Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": 16,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-29T08:04:01.540Z",
+      "last_published_at": "2025-01-29T08:18:05.572Z",
+      "live_revision": 16,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": true,
+      "search_description": "",
+      "latest_revision_created_at": "2025-01-29T08:18:04.993Z",
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "Camille",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "exemple@domaine.fr",
+          "page": 6
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "clean_name": "votre_message",
+          "label": "Votre message :",
+          "field_type": "multiline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "Bonjour ...",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-02-08T15:33:21.428Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": 30,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-29T08:04:01.540Z",
+      "last_published_at": "2025-02-08T15:33:04.927Z",
+      "live_revision": 30,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": true,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T15:33:04.328Z",
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "Camille",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "exemple@domaine.fr",
+          "page": 6
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "clean_name": "votre_message",
+          "label": "Votre message :",
+          "field_type": "multiline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "Bonjour ...",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 32,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-02-08T15:33:59.515Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": 31,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-29T08:04:01.540Z",
+      "last_published_at": "2025-02-08T15:33:21.754Z",
+      "live_revision": 31,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": true,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T15:33:21.428Z",
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "Camille",
+          "help_text": "Camille",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "exemple@domaine.fr",
+          "page": 6
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "clean_name": "votre_message",
+          "label": "Votre message :",
+          "field_type": "multiline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "Bonjour ...",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 33,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-02-08T15:34:17.200Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": 32,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-29T08:04:01.540Z",
+      "last_published_at": "2025-02-08T15:33:59.868Z",
+      "live_revision": 32,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": true,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T15:33:59.515Z",
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "Camille",
+          "help_text": "",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "exemple@domaine.fr",
+          "page": 6
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "clean_name": "votre_message",
+          "label": "Votre message :",
+          "field_type": "multiline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "Bonjour ...",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "6",
+    "created_at": "2025-02-08T15:35:22.974Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Contact",
+    "content": {
+      "pk": 6,
+      "path": "000100010002",
+      "depth": 3,
+      "numchild": 0,
+      "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+      "locale": 1,
+      "latest_revision": 33,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-29T08:04:01.540Z",
+      "last_published_at": "2025-02-08T15:34:17.611Z",
+      "live_revision": 33,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Contact",
+      "draft_title": "Contact",
+      "slug": "contact",
+      "content_type": 50,
+      "url_path": "/home/contact/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": true,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T15:34:17.200Z",
+      "alias_of": null,
+      "to_address": "contact@supplementame.eu",
+      "from_address": "contact@supplementame.eu",
+      "subject": "Nouveau message du site",
+      "subtitle": "Une question, une demande d'information ? C'est à vous !",
+      "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>",
+      "wagtail_admin_comments": [],
+      "form_fields": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "clean_name": "votre_nom",
+          "label": "Votre nom :",
+          "field_type": "singleline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        },
+        {
+          "pk": 2,
+          "sort_order": 1,
+          "clean_name": "votre_email",
+          "label": "Votre email :",
+          "field_type": "email",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        },
+        {
+          "pk": 3,
+          "sort_order": 2,
+          "clean_name": "votre_message",
+          "label": "Votre message :",
+          "field_type": "multiline",
+          "required": true,
+          "choices": "",
+          "default_value": "",
+          "help_text": "",
+          "page": 6
+        }
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 35,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "created_at": "2025-02-08T16:11:31.720Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Buffet vaisselier en bois massif",
+    "content": {
+      "pk": 5,
+      "path": "0001000100010001",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "20e07769-5d12-4986-9eaf-e67d90a3bd5e",
+      "locale": 1,
+      "latest_revision": 28,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-01-28T16:45:50.557Z",
+      "last_published_at": "2025-02-08T07:44:31.256Z",
+      "live_revision": 28,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Buffet vaisselier en bois massif",
+      "draft_title": "Buffet vaisselier en bois massif",
+      "slug": "buffet-vaisselier-en-bois-massif",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/buffet-vaisselier-en-bois-massif/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T07:44:30.834Z",
+      "alias_of": null,
+      "description": "<p data-block-key=\"hj1v7\">Ce vert de gris, ce plateau vernis doré et ces jolis boutons « marguerite » en verre @boutons_mandarine, quel chic ! 😎 Très grande capacité de rangement :</p><ul><li data-block-key=\"d8jj5\">3 grands tiroirs</li><li data-block-key=\"8dip8\">3 portes avec serrure</li><li data-block-key=\"cfe2i\">1 grande étagère</li></ul><p data-block-key=\"7g9ll\">Dimensions L 200 cm x H130 cm x P 50 cm</p><p data-block-key=\"alhv1\">Retrait à l’atelier ou livraison dans toute la France par transporteur sur devis.</p>",
+      "date": "2025-01-28",
+      "vendu": true,
+      "wagtail_admin_comments": [],
+      "categories": [],
+      "image_gallery": [
+        {
+          "pk": 1,
+          "sort_order": 0,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": 4,
+          "sort_order": 1,
+          "page": 5,
+          "image": 1,
+          "caption": ""
+        },
+        {
+          "pk": null,
+          "sort_order": 2,
+          "page": 5,
+          "image": 4,
+          "caption": ""
+        }
+      ],
+      "categorie": [
+        1
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 36,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "9",
+    "created_at": "2025-02-08T16:17:28.858Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Chaise 1900 en teck",
+    "content": {
+      "pk": 9,
+      "path": "0001000100010002",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "f74e061e-8f60-4173-8931-4e22bbd67ea3",
+      "locale": 1,
+      "latest_revision": null,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "live_revision": null,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Chaise 1900 en teck",
+      "draft_title": "Chaise 1900 en teck",
+      "slug": "chaise-1900-en-teck",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/chaise-1900-en-teck/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": null,
+      "alias_of": null,
+      "description": "<h3 data-block-key=\"o6qhf\"> Magnifique chaise pliante en teck des années 1900 </h3><p data-block-key=\"6ed4o\">Piètement et structure en bois de teck imitation bambou </p><p data-block-key=\"bdpq7\">Assise et dossier en cannage, accoudoirs en cuir et embouts en laiton. </p><p data-block-key=\"98eb9\"><b><i>Une merveille 😍 </i></b></p><p data-block-key=\"adl6s\">Dim. : l54 cm x H89 cm - Hauteur d'assise 36 cm</p><p data-block-key=\"9m5r2\"></p><p data-block-key=\"2bdlp\">Retrait à l'atelier ou livraison dans toute la France par transporteur sur devis</p>",
+      "date": "2025-02-08",
+      "vendu": false,
+      "wagtail_admin_comments": [],
+      "categories": [],
+      "image_gallery": [],
+      "categorie": [
+        2
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 37,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "9",
+    "created_at": "2025-02-08T16:18:25.408Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Chaise 1900 en teck",
+    "content": {
+      "pk": 9,
+      "path": "0001000100010002",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "f74e061e-8f60-4173-8931-4e22bbd67ea3",
+      "locale": 1,
+      "latest_revision": 36,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-02-08T16:17:29.262Z",
+      "last_published_at": "2025-02-08T16:17:29.262Z",
+      "live_revision": 36,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Chaise 1900 en teck",
+      "draft_title": "Chaise 1900 en teck",
+      "slug": "chaise-1900-en-teck",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/chaise-1900-en-teck/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T16:17:28.858Z",
+      "alias_of": null,
+      "description": "<h3 data-block-key=\"o6qhf\">Magnifique chaise pliante en teck des années 1900</h3><p data-block-key=\"6ed4o\">Piètement et structure en bois de teck imitation bambou</p><p data-block-key=\"bdpq7\">Assise et dossier en cannage, accoudoirs en cuir et embouts en laiton.</p><p data-block-key=\"98eb9\"><b><i>Une merveille 😍</i></b></p><p data-block-key=\"adl6s\">Dim. : l54 cm x H89 cm - Hauteur d'assise 36 cm</p><p data-block-key=\"9m5r2\"></p><p data-block-key=\"2bdlp\">Retrait à l'atelier ou livraison dans toute la France par transporteur sur devis</p>",
+      "date": "2025-02-08",
+      "vendu": false,
+      "wagtail_admin_comments": [],
+      "categories": [],
+      "image_gallery": [
+        {
+          "pk": null,
+          "sort_order": 0,
+          "page": 9,
+          "image": 5,
+          "caption": ""
+        },
+        {
+          "pk": null,
+          "sort_order": 1,
+          "page": 9,
+          "image": 6,
+          "caption": ""
+        },
+        {
+          "pk": null,
+          "sort_order": 2,
+          "page": 9,
+          "image": 7,
+          "caption": ""
+        },
+        {
+          "pk": null,
+          "sort_order": 3,
+          "page": 9,
+          "image": 4,
+          "caption": ""
+        }
+      ],
+      "categorie": [
+        2
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 38,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "9",
+    "created_at": "2025-02-08T16:22:34.598Z",
+    "user": [
+      "Sophie"
+    ],
+    "object_str": "Chaise 1900 en teck",
+    "content": {
+      "pk": 9,
+      "path": "0001000100010002",
+      "depth": 4,
+      "numchild": 0,
+      "translation_key": "f74e061e-8f60-4173-8931-4e22bbd67ea3",
+      "locale": 1,
+      "latest_revision": 37,
+      "live": true,
+      "has_unpublished_changes": false,
+      "first_published_at": "2025-02-08T16:17:29.262Z",
+      "last_published_at": "2025-02-08T16:18:25.836Z",
+      "live_revision": 37,
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "locked_at": null,
+      "locked_by": null,
+      "title": "Chaise 1900 en teck",
+      "draft_title": "Chaise 1900 en teck",
+      "slug": "chaise-1900-en-teck",
+      "content_type": 48,
+      "url_path": "/home/index_boutique/chaise-1900-en-teck/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "latest_revision_created_at": "2025-02-08T16:18:25.408Z",
+      "alias_of": null,
+      "description": "<h3 data-block-key=\"o6qhf\">Magnifique chaise pliante en teck des années 1900</h3><p data-block-key=\"6ed4o\">Piètement et structure en bois de teck imitation bambou</p><p data-block-key=\"bdpq7\">Assise et dossier en cannage, accoudoirs en cuir et embouts en laiton.</p><p data-block-key=\"98eb9\"><b><i>Une merveille 😍</i></b></p><p data-block-key=\"adl6s\">Dim. : l54 cm x H89 cm - Hauteur d'assise 36 cm</p><p data-block-key=\"9m5r2\"></p><p data-block-key=\"2bdlp\">Retrait à l'atelier ou livraison dans toute la France par transporteur sur devis</p>",
+      "date": "2025-02-08",
+      "vendu": false,
+      "wagtail_admin_comments": [],
+      "categories": [],
+      "image_gallery": [
+        {
+          "pk": 7,
+          "sort_order": 0,
+          "page": 9,
+          "image": 5,
+          "caption": ""
+        },
+        {
+          "pk": 8,
+          "sort_order": 1,
+          "page": 9,
+          "image": 6,
+          "caption": ""
+        },
+        {
+          "pk": 9,
+          "sort_order": 2,
+          "page": 9,
+          "image": 7,
+          "caption": ""
+        },
+        {
+          "pk": 10,
+          "sort_order": 3,
+          "page": 9,
+          "image": 4,
+          "caption": ""
+        }
+      ],
+      "categorie": [
+        1
+      ]
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 1,
+    "translation_key": "ff33f2ab-2981-46cc-b4a1-ab368b237c73",
+    "locale": 1,
+    "latest_revision": null,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": null,
+    "last_published_at": null,
+    "live_revision": null,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Root",
+    "draft_title": "Root",
+    "slug": "root",
+    "content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "url_path": "/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": null,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 3,
+  "fields": {
+    "path": "00010001",
+    "depth": 2,
+    "numchild": 4,
+    "translation_key": "8b6477c0-2719-4d76-88c6-122ba80a3d7f",
+    "locale": 1,
+    "latest_revision": 20,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2025-01-28T15:24:24.062Z",
+    "last_published_at": "2025-02-07T13:45:54.869Z",
+    "live_revision": 20,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Accueil",
+    "draft_title": "Accueil",
+    "slug": "home",
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "url_path": "/home/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2025-02-07T13:45:54.457Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 4,
+  "fields": {
+    "path": "000100010001",
+    "depth": 3,
+    "numchild": 2,
+    "translation_key": "609d8615-7349-4587-8f96-134538e7717b",
+    "locale": 1,
+    "latest_revision": 10,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2025-01-28T16:41:36.541Z",
+    "last_published_at": "2025-01-28T16:59:39.757Z",
+    "live_revision": 10,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Découvrez notre boutique",
+    "draft_title": "Découvrez notre boutique",
+    "slug": "index_boutique",
+    "content_type": [
+      "boutique",
+      "indexboutique"
+    ],
+    "url_path": "/home/index_boutique/",
+    "owner": [
+      "Sophie"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2025-01-28T16:59:39.313Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 5,
+  "fields": {
+    "path": "0001000100010001",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "20e07769-5d12-4986-9eaf-e67d90a3bd5e",
+    "locale": 1,
+    "latest_revision": 35,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2025-01-28T16:45:50.557Z",
+    "last_published_at": "2025-02-08T16:11:32.130Z",
+    "live_revision": 35,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Buffet vaisselier en bois massif",
+    "draft_title": "Buffet vaisselier en bois massif",
+    "slug": "buffet-vaisselier-en-bois-massif",
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "url_path": "/home/index_boutique/buffet-vaisselier-en-bois-massif/",
+    "owner": [
+      "Sophie"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2025-02-08T16:11:31.720Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 6,
+  "fields": {
+    "path": "000100010002",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "bbbe2ebc-8877-4c2f-ab60-cd8c3d74fdd6",
+    "locale": 1,
+    "latest_revision": 34,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2025-01-29T08:04:01.540Z",
+    "last_published_at": "2025-02-08T15:35:23.359Z",
+    "live_revision": 34,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Contact",
+    "draft_title": "Contact",
+    "slug": "contact",
+    "content_type": [
+      "contact",
+      "contactpage"
+    ],
+    "url_path": "/home/contact/",
+    "owner": [
+      "Sophie"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "latest_revision_created_at": "2025-02-08T15:35:22.974Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 7,
+  "fields": {
+    "path": "000100010003",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "cd302678-94c0-4668-9587-5262a44766dd",
+    "locale": 1,
+    "latest_revision": 23,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2025-02-07T16:31:32.990Z",
+    "last_published_at": "2025-02-07T17:07:49.831Z",
+    "live_revision": 23,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Découvrez la vie de l'atelier",
+    "draft_title": "Découvrez la vie de l'atelier",
+    "slug": "atelier",
+    "content_type": [
+      "atelier",
+      "atelierpage"
+    ],
+    "url_path": "/home/atelier/",
+    "owner": [
+      "Sophie"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2025-02-07T17:07:49.484Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 8,
+  "fields": {
+    "path": "000100010004",
+    "depth": 3,
+    "numchild": 0,
+    "translation_key": "c2c314b9-311e-48b1-937a-b1fccf249817",
+    "locale": 1,
+    "latest_revision": 29,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2025-02-08T06:57:10.768Z",
+    "last_published_at": "2025-02-08T07:48:37.232Z",
+    "live_revision": 29,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Ils ont déjà été adoptés",
+    "draft_title": "Ils ont déjà été adoptés",
+    "slug": "articles_vendus",
+    "content_type": [
+      "boutique",
+      "articlesvenduspage"
+    ],
+    "url_path": "/home/articles_vendus/",
+    "owner": [
+      "Sophie"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2025-02-08T07:48:36.829Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 9,
+  "fields": {
+    "path": "0001000100010002",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "f74e061e-8f60-4173-8931-4e22bbd67ea3",
+    "locale": 1,
+    "latest_revision": 38,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2025-02-08T16:17:29.262Z",
+    "last_published_at": "2025-02-08T16:22:34.940Z",
+    "live_revision": 38,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Chaise 1900 en teck",
+    "draft_title": "Chaise 1900 en teck",
+    "slug": "chaise-1900-en-teck",
+    "content_type": [
+      "boutique",
+      "article"
+    ],
+    "url_path": "/home/index_boutique/chaise-1900-en-teck/",
+    "owner": [
+      "Sophie"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2025-02-08T16:22:34.598Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "label": "Sophie",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T10:21:23.692Z",
+    "uuid": "ef730345-af34-4c37-8a1a-fcde35730a9d",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "label": "vaisselier2",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2025-01-28T16:44:43.200Z",
+    "uuid": "2173636b-30e3-435e-a366-02f1b963707a",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "label": "vaisselier2",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2025-01-28T16:45:15.730Z",
+    "uuid": "bcfaf688-4de8-4f0e-964d-6bfbfaf69169",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "label": "vaisselier3",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2025-01-28T16:45:42.412Z",
+    "uuid": "4b0f6b18-ca27-4845-b3a1-e21eb4d818f5",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "3"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "categorie"
+    ],
+    "label": "Mobilier",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-01-28T17:50:57.274Z",
+    "uuid": "5a02281d-98e5-46a1-83c1-efc12b8aff40",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "categorie"
+    ],
+    "label": "Décoration",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-01-28T17:51:09.325Z",
+    "uuid": "cfeb86f5-8f09-40eb-82a1-c44c021c1b3a",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "boutique",
+      "categorie"
+    ],
+    "label": "Objets de charme",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2025-01-28T17:51:19.331Z",
+    "uuid": "9ef2bd7b-6c37-4cc0-999d-ea39865d08da",
+    "user": [
+      "Sophie"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "3"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 1,
+  "fields": {
+    "collection": 1,
+    "title": "vaisselier2",
+    "file": "original_images/article1.JPG",
+    "description": "",
+    "width": 421,
+    "height": 420,
+    "created_at": "2025-01-28T16:44:14.084Z",
+    "uploaded_by_user": [
+      "Sophie"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 60183,
+    "file_hash": "9aa51bb355661e54b367f1d9ed37d3f39517c5e5"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 4,
+  "fields": {
+    "collection": 1,
+    "title": "video",
+    "file": "original_images/video.png",
+    "description": "",
+    "width": 900,
+    "height": 640,
+    "created_at": "2025-02-08T16:11:20.854Z",
+    "uploaded_by_user": [
+      "Sophie"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 3166,
+    "file_hash": "af47a7087ca6cf88621cfc701d8a2cd46b8ffbe9"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 5,
+  "fields": {
+    "collection": 1,
+    "title": "chaise_teck1",
+    "file": "original_images/chaise_teck1.JPG",
+    "description": "",
+    "width": 640,
+    "height": 480,
+    "created_at": "2025-02-08T16:17:49.388Z",
+    "uploaded_by_user": [
+      "Sophie"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 218049,
+    "file_hash": "2e02e8cee77a8b4f4f1041dc107a9a03e67525d6"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 6,
+  "fields": {
+    "collection": 1,
+    "title": "chaise_teck2",
+    "file": "original_images/chaise_teck2.JPG",
+    "description": "",
+    "width": 640,
+    "height": 480,
+    "created_at": "2025-02-08T16:18:00.705Z",
+    "uploaded_by_user": [
+      "Sophie"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 296268,
+    "file_hash": "76b17e31a5d7b1ec7dc7f1521d755238d91d85eb"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 7,
+  "fields": {
+    "collection": 1,
+    "title": "chaise_teck3",
+    "file": "original_images/chaise_teck3.JPG",
+    "description": "",
+    "width": 640,
+    "height": 480,
+    "created_at": "2025-02-08T16:18:15.959Z",
+    "uploaded_by_user": [
+      "Sophie"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 207864,
+    "file_hash": "b8cd9904932c4c7e5089d2ca19334d7d2560220c"
+  }
+},
+{
+  "model": "wagtailusers.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "Sophie"
+    ],
+    "submitted_notifications": true,
+    "approved_notifications": true,
+    "rejected_notifications": true,
+    "updated_comments_notifications": true,
+    "preferred_language": "fr",
+    "current_time_zone": "",
+    "avatar": "",
+    "dismissibles": {
+      "last_upgrade_check": 6.4
+    },
+    "theme": "system",
+    "contrast": "system",
+    "density": "default"
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 1,
+  "fields": {
+    "old_path": "/d%C3%A9couvrez-notre-boutique",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 4,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2025-01-28T16:58:53.183Z"
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 2,
+  "fields": {
+    "old_path": "/d%C3%A9couvrez-notre-boutique/buffet-vaisselier-en-bois-massif",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 5,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2025-01-28T16:58:53.183Z"
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 3,
+  "fields": {
+    "old_path": "/boutique",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 4,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2025-01-28T16:59:39.977Z"
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 4,
+  "fields": {
+    "old_path": "/boutique/buffet-vaisselier-en-bois-massif",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 5,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2025-01-28T16:59:39.977Z"
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 5,
+  "fields": {
+    "old_path": "/ils-ont-d%C3%A9j%C3%A0-%C3%A9t%C3%A9-adopt%C3%A9s",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 8,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2025-02-08T07:10:12.815Z"
+  }
+},
+{
+  "model": "wagtailredirects.redirect",
+  "pk": 6,
+  "fields": {
+    "old_path": "/articles-vendus",
+    "site": [
+      "localhost",
+      80
+    ],
+    "is_permanent": true,
+    "redirect_page": 8,
+    "redirect_page_route_path": "",
+    "redirect_link": "",
+    "automatically_created": true,
+    "created_at": "2025-02-08T07:17:40.004Z"
+  }
+},
+{
+  "model": "home.homepage",
+  "pk": 3,
+  "fields": {
+    "alaune": "<p data-block-key=\"fmcmf\">Nos dernières nouvelles :</p><ul><li data-block-key=\"18hmv\"><b><i>Necessitatibus aspernatur earum temporibus!</i></b></li><li data-block-key=\"2kg0c\"><b><i>Dolor provident tempora voluptatum.</i></b></li><li data-block-key=\"15cv8\"><b><i>Provident alias officiis illo.</i></b></li></ul><p data-block-key=\"5fjde\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>",
+    "actu": "<p data-block-key=\"nqh4y\">Notre actualité :</p><ul><li data-block-key=\"25u0j\"><b><i>Necessitatibus aspernatur earum temporibus!</i></b></li><li data-block-key=\"asvin\"><b><i>Dolor provident tempora voluptatum.</i></b></li><li data-block-key=\"d4jcc\"><b><i>Provident alias officiis illo.</i></b></li></ul><p data-block-key=\"6bsjm\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis et nostrum? Laboriosam, alias. Inventore culpa deleniti fugiat. Minima, iste?</p>"
+  }
+},
+{
+  "model": "atelier.atelierpage",
+  "pk": 7,
+  "fields": {
+    "presentation": "<p data-block-key=\"lpecz\"> Candy toffee soufflé cake  liquorice sweet roll. Jelly-o halvah soufflé sugar plum halvah  cheesecake cake sweet roll. Apple pie cheesecake chocolate bar tiramisu  sugar plum gummi bears sweet donut marzipan.</p><ul><li data-block-key=\"4v094\">Muffin  toffee liquorice chocolate jelly beans soufflé. </li><li data-block-key=\"egaap\">Marzipan liquorice  wafer cookie brownie gingerbread. </li></ul><p data-block-key=\"jaj5\">Chupa chups tootsie roll cupcake  chocolate chocolate bar cotton candy. Chocolate bar ice cream pie  jelly-o sesame snaps apple pie pudding danish candy canes.</p>"
+  }
+},
+{
+  "model": "boutique.articlesvenduspage",
+  "pk": 8,
+  "fields": {}
+},
+{
+  "model": "boutique.article",
+  "pk": 5,
+  "fields": {
+    "description": "<p data-block-key=\"hj1v7\">Ce vert de gris, ce plateau vernis doré et ces jolis boutons « marguerite » en verre @boutons_mandarine, quel chic ! 😎 Très grande capacité de rangement :</p><ul><li data-block-key=\"d8jj5\">3 grands tiroirs</li><li data-block-key=\"8dip8\">3 portes avec serrure</li><li data-block-key=\"cfe2i\">1 grande étagère</li></ul><p data-block-key=\"7g9ll\">Dimensions L 200 cm x H130 cm x P 50 cm</p><p data-block-key=\"alhv1\">Retrait à l’atelier ou livraison dans toute la France par transporteur sur devis.</p>",
+    "date": "2025-01-28",
+    "vendu": true,
+    "categorie": [
+      1
+    ]
+  }
+},
+{
+  "model": "boutique.article",
+  "pk": 9,
+  "fields": {
+    "description": "<h3 data-block-key=\"o6qhf\">Magnifique chaise pliante en teck des années 1900</h3><p data-block-key=\"6ed4o\">Piètement et structure en bois de teck imitation bambou</p><p data-block-key=\"bdpq7\">Assise et dossier en cannage, accoudoirs en cuir et embouts en laiton.</p><p data-block-key=\"98eb9\"><b><i>Une merveille 😍</i></b></p><p data-block-key=\"adl6s\">Dim. : l54 cm x H89 cm - Hauteur d'assise 36 cm</p><p data-block-key=\"9m5r2\"></p><p data-block-key=\"2bdlp\">Retrait à l'atelier ou livraison dans toute la France par transporteur sur devis</p>",
+    "date": "2025-02-08",
+    "vendu": false,
+    "categorie": [
+      1
+    ]
+  }
+},
+{
+  "model": "boutique.indexboutique",
+  "pk": 4,
+  "fields": {}
+},
+{
+  "model": "contact.contactpage",
+  "pk": 6,
+  "fields": {
+    "to_address": "contact@supplementame.eu",
+    "from_address": "contact@supplementame.eu",
+    "subject": "Nouveau message du site",
+    "subtitle": "Une question, une demande d'information ? C'est à vous !",
+    "thank_you_text": "<p data-block-key=\"mhnrt\">Merci !</p>"
+  }
+}
+]

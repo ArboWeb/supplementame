@@ -3,14 +3,14 @@
 
 {% block content %}
 
-<div class="text-center" style="height: 70vh; background-image: url({% static 'img/banner.JPG' %}); background-repeat: no-repeat; background-position: center; background-size: 100%;">
+<div class="text-center h-[40vh] md:h-[70vh]" style="md:height: 70vh; background-image: url({% static 'img/banner.JPG' %}); background-repeat: no-repeat; background-position: center; background-size: 100%;">
     <h1 class="presentation_title">Supplément d'Âme</h1>
     <p class="presentation_text">Décoration d’intérieur<br>Mobilier et objets de charme de seconde main </p>
 </div>
 
-<div class="w-4/5 grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[30vh] mx-auto my-12 leading-8">
+<div class="w-4/5 grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-auto mx-auto my-12 leading-8">
 
-    <div class="row-start-4 md:row-start-1 card md:card-side bg-base-100 shadow-2xl flex-col mt-[7rem] md:mt-3 my p-3 justify-end items-center" style="background-image: url({% static 'img/banner.JPG' %});">
+    <div class="row-start-4 md:row-start-1 card md:card-side bg-base-100 shadow-2xl flex-col md:mt-3 my p-3 justify-end items-center mt-[1rem] h-[30vh]" style="background-image: url({% static 'img/banner.JPG' %});">
         <div class="card-actions">
             <button class="btn text-xl">
                 <a href="{% slugurl "articles_vendus" %}">Voir les articles vendus</a>
@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <div class="row-start-5 md:row-start-2 card md:card-side bg-base-100 shadow-2xl flex-col m-3 p-3 justify-end items-center" style="background-image: url({% static 'img/mirroir.JPG' %});">
+    <div class="row-start-5 md:row-start-2 card md:card-side bg-base-100 shadow-2xl flex-col m-3 p-3 justify-end items-center mt-[1rem] h-[30vh]" style="background-image: url({% static 'img/mirroir.JPG' %});">
         <div class="card-actions">
             <button class="btn text-xl">
                 <a href="{% slugurl "atelier" %}">Découvrez l'atelier</a>
